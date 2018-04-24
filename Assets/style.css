@@ -244,7 +244,9 @@ input[type=submit] {
 }
 @media screen and (max-width: 768px){
     .main-section {
-    width: 100%;
+    position:relative
+      width: 100%;
+    background-color: blue;
   }
     #masthead {
    width: 100%;
@@ -257,11 +259,17 @@ input[type=submit] {
 @media screen and (max-width: 640px){
     }
   .main-section {
+    position: relative;
     width: 100%;
+    background-color: lightblue;
   }
-    #masthead {
+  #masthead {
    width: 100%;
+   position: static;
+   background-color: gray
+   
   }
   #logo{
   width: 100%;
+
   }
