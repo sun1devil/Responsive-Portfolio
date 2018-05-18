@@ -3,7 +3,7 @@
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background-image: url("palm-leaf.png");
+  background: black;
 }
 
 * {
@@ -26,23 +26,19 @@ p {
   margin-bottom: 20px;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
 h1,
 h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: lightgray;
 }
 
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 3px solid black;
 }
 
 h2,
@@ -60,26 +56,29 @@ h3 {
   overflow: auto;
   color: #fff;
   background: #fff;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 8px solid black;
 }
 
 #logo {
   float: left;
-  width: 250px;
+  width: 500px;
   height: 90px;
+  font-weight: bold;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
-  font-weight: 700;
+  text-shadow: 5px;
   line-height: 90px;
-  color: #fff;
+  color: black;
   text-align: center;
-  text-decoration: none;
-  background: #4aaaa5;
-}
+  background: lightgray;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  }
 
 #nav {
   float: right;
   margin-top: 25px;
+  background-color: black;
 }
 
 nav a {
@@ -87,7 +86,7 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: black;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
@@ -102,12 +101,11 @@ footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #fff;
-  color: #ccc;
-  text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  color: black;
+  background: #666666;
+  border-top: 8px solid black;
   height: 50px;
+  
 }
 
 h3, h2 {
@@ -130,8 +128,8 @@ h3, h2 {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #fff;
-  border: 1px solid #ddd;
+  background: lightgray;
+  border: 2px solid black;
 }
 
 /* portfolio page */
@@ -150,7 +148,7 @@ h3, h2 {
 
 .work img {
   width: 100%;
-  border: 0 none;
+  border: 2px solid;
   opacity: 0.8;
 }
 
@@ -162,9 +160,9 @@ h3, h2 {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #fff;
+  color: black;
   text-align: center;
-  background: #4aaaa5;
+  background: lightgray;
   border-bottom: 0;
 }
 
@@ -174,6 +172,8 @@ h3, h2 {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+  border-radius: 50%;
+  border: 1px solid;
 }
 #bio {
   position: relative;
@@ -213,10 +213,12 @@ textarea {
 input[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
+  font-weight: bold;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: black;
   border: 0 none;
+  border-radius: 48%
 }
 #pic{
   float: left;
@@ -224,7 +226,9 @@ input[type=submit] {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
-}
+  border: solid;
+  border: 5px;
+  }
 #contactbox{
   border; 2px
 }
@@ -244,8 +248,8 @@ input[type=submit] {
 }
 @media screen and (max-width: 768px){
     .main-section {
-    position:relative
-      width: 100%;
+    position: relative;
+    width: 100%;
     background-color: blue;
   }
     #masthead {
